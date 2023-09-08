@@ -1,0 +1,52 @@
+//+++++++++ reduce method +++++++++++++++++++
+//
+
+
+
+//=====1st method======
+//const myNums = [1, 2, 3]
+
+// const myTotal = myNums.reduce( function (acc, currval){
+//     console.log( `acc: ${acc} and currval: ${currval}` );
+//     return acc + currval
+// } ,0)
+
+
+
+
+
+//++++++++++using arrow function+++++++++++++++++++++++++
+
+
+//++++++++++++++++++++  best method  +++++++++++++++ 
+// const myNum = [1, 2, 3]
+
+// const myTotal = myNum.reduce ( (acc, curr) => acc+curr, 0 )
+// console.log(myTotal);
+
+
+//++++++++++++++++++++++++++++++++
+
+
+const shoppingCart = [
+    {
+        itemName: "js course",
+        price : 2999
+    }
+    {
+        itemName: "py course",
+        price : 29099
+    }
+    {
+        itemName: "mobiledev course",
+        price : 2999
+    }
+    {
+        itemName: "data science course",
+        price : 2999
+    }
+]
+
+const priceToPay = shoppingCart.reduce( (acc, item) => acc + item.price, 0 )
+price, 0)
+console.log(priceToPay);
