@@ -9,6 +9,7 @@ let age = 26
 let abc = null
 let isLoggedIn = false
 let state;
+//hi testing
 
 // number => 2 to 53 //
 // bigint //
